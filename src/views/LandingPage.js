@@ -16,6 +16,7 @@ import { Col, Container, Row } from "reactstrap";
 import { Link } from "react-scroll";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
+import Confetti from "react-confetti";
 
 const LandingPage = () => {
   const [isOpen, setOpen] = useState(false);
@@ -26,7 +27,8 @@ const LandingPage = () => {
       <NavBar />
       <div className="section-one">
         <Container>
-          <Particles />
+          <Confetti/>
+          {/* <Particles /> */}
           <Row>
             <Col md={8}>
               <div className="content">
