@@ -10,6 +10,7 @@ import Schedules from "./Schedules";
 import Speakers from "./Speakers";
 import Sponsors from "./Sponsors";
 import StreamLinks from "./StreamLinks";
+import Soon from "./Soon";
 import Counter from "../components/Counter";
 import { ChevronsDown, Youtube } from "react-feather";
 import { Col, Container, Row } from "reactstrap";
@@ -52,13 +53,15 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="section" id="streamLinks">
-                <StreamLinks />
+                {/* <StreamLinks /> */}
+                <Soon title="Liens des conférences et workshops"/>
             </div>
             <div className="section" id="about">
                 <AboutUS />
             </div>
             <div className="section" id="speakers">
-                <Speakers />
+                {/* <Speakers /> */}
+                <Soon title="Nos invités" />
             </div>
             <div className="section" id="schedules">
                 <Schedules />
@@ -67,7 +70,8 @@ const LandingPage = () => {
                 <Tickets />
             </div>
             <div className="section" id="team">
-                <Team />
+                {/* <Team /> */}
+                <Soon title="Notre équipe" />
             </div>
             <div className="section" id="sponsors">
                 <Sponsors />
