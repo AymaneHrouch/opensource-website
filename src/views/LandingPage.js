@@ -27,8 +27,7 @@ const LandingPage = () => {
             <NavBar />
             <div className="section-one">
                 <Container>
-                    <Confetti />
-                    {/* <Particles /> */}
+                    <Confetti numberOfPieces={100}/>
                     <Row>
                         <Col md={8}>
                             <div className="content">
