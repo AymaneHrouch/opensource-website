@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import LandingPage from './views/LandingPage';
 import NotFound from './views/404';
+import Speakers from './views/Speakers';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <LandingPage />
+        </Route>
+        <Route exact path="/speakers">
+          <Speakers />
         </Route>
         <Route exact path='/404'>
           <NotFound />

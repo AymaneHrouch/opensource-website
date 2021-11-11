@@ -19,77 +19,64 @@ import "react-modal-video/scss/modal-video.scss";
 import Confetti from "react-confetti";
 
 const LandingPage = () => {
-  const [isOpen, setOpen] = useState(false);
+    const [isOpen, setOpen] = useState(false);
 
-  return (
-    <div className="landing-page">
-      <div id="home"></div>
-      <NavBar />
-      <div className="section-one">
-        <Container>
-          <Confetti/>
-          {/* <Particles /> */}
-          <Row>
-            <Col md={8}>
-              <div className="content">
-                <div className="welcome">
-                  Bienvenue chez Open Source Days 9.0
+    return (
+        <div className="landing-page">
+            <div id="home"></div>
+            <NavBar />
+            <div className="section-one">
+                <Container>
+                    <Confetti />
+                    {/* <Particles /> */}
+                    <Row>
+                        <Col md={8}>
+                            <div className="content">
+                                <div className="welcome">Bienvenue chez Open Source Days 10.0</div>
+                                <div className="head-line">A decade of Open Source:<br />Visualization, innovation and dedication</div>
+                                <div className="button primary-stroke watch" onClick={() => setOpen(true)}>
+                                    <Youtube color="#d63031" />
+                                    <span>Voir la vidéo</span>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col>
+                            <Counter />
+                        </Col>
+                    </Row>
+                </Container>
+                <div className="scroll-down">
+                    <Link to="about" smooth={true} duration={500} containerId="root">
+                        <ChevronsDown color="#d63031" />
+                        <span>Défiler vers le bas</span>
+                    </Link>
                 </div>
-                <div className="head-line">
-                  COVID 19: L'ENTREPRISE À L'ÈRE DU DIGITALE
-                </div>
-                <div
-                  className="button primary-stroke watch"
-                  onClick={() => setOpen(true)}
-                >
-                  <Youtube color="#d63031" />
-                  <span>Voir la vidéo</span>
-                </div>
-              </div>
-            </Col>
-            <Col>
-              <Counter />
-            </Col>
-          </Row>
-        </Container>
-        <div className="scroll-down">
-          <Link to="about" smooth={true} duration={500} containerId="root">
-            <ChevronsDown color="#d63031" />
-            <span>Défiler vers le bas</span>
-          </Link>
+            </div>
+            <div className="section" id="streamLinks">
+                <StreamLinks />
+            </div>
+            <div className="section" id="about">
+                <AboutUS />
+            </div>
+            <div className="section" id="speakers">
+                <Speakers />
+            </div>
+            <div className="section" id="schedules">
+                <Schedules />
+            </div>
+            <div className="section" id="tickets">
+                <Tickets />
+            </div>
+            <div className="section" id="team">
+                <Team />
+            </div>
+            <div className="section" id="sponsors">
+                <Sponsors />
+            </div>
+            <Footer />
+            <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="fjMFarSzysk" onClose={() => setOpen(false)} />
         </div>
-      </div>
-      <div className="section" id="streamLinks">
-        <StreamLinks />
-      </div>
-      <div className="section" id="about">
-        <AboutUS />
-      </div>
-      <div className="section" id="speakers">
-        <Speakers />
-      </div>
-      <div className="section" id="schedules">
-        <Schedules />
-      </div>
-      <div className="section" id="tickets">
-        <Tickets />
-      </div>
-      <div className="section" id="team">
-        <Team />
-      </div>
-      <div className="section" id="sponsors">
-        <Sponsors />
-      </div>
-      <Footer />
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="fjMFarSzysk"
-        onClose={() => setOpen(false)}
-      />
-    </div>
-  );
+    );
 };
 
 export default LandingPage;

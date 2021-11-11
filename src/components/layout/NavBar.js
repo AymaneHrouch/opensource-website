@@ -54,7 +54,7 @@ const Example = (props) => {
             alt=""
             className="brand-logo"
           />
-          <span className="brand-name">Open Source Days 9.0</span>
+          <span className="brand-name">Open Source Days 10.0</span>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
