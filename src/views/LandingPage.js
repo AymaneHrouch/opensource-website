@@ -35,7 +35,7 @@ const LandingPage = () => {
                                 <div className="welcome">Bienvenue chez Open Source Days 10.0</div>
                                 <div className="head-line">A decade of Open Source:<br />Visualization, innovation and dedication</div>
                                 <div className="button primary-stroke watch" onClick={() => setOpen(true)}>
-                                    <Youtube color="#d63031" />
+                                    <Youtube color="#653988" />
                                     <span>Voir la vidéo</span>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ const LandingPage = () => {
                 </Container>
                 <div className="scroll-down">
                     <Link to="about" smooth={true} duration={500} containerId="root">
-                        <ChevronsDown color="#d63031" />
+                        <ChevronsDown color="#653988" />
                         <span>Défiler vers le bas</span>
                     </Link>
                 </div>

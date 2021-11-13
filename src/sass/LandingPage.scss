@@ -257,12 +257,13 @@
       }
 
       &-price {
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: 900;
         margin-bottom: 1rem;
       }
 
       &-benefits {
+        font-size: 1.5rem;
         width: 90%;
         color: $background;
         text-align: center;
@@ -628,4 +629,17 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+// moved from App.css
+
+.primary-stroke {
+  border: 3px solid $primary;
+  color: $primary;
+}
+
+.primary-fill {
+  border: 3px solid $primary;
+  background: $primary;
+  color: white;
 }
