@@ -19,20 +19,20 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
 import Confetti from "react-confetti";
 
-const LandingPage = () => {
+const LandingPage19 = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
         <div className="landing-page">
             <div id="home"></div>
-            <NavBar version="10.0" />
+            <NavBar version="9.0" />
             <div className="section-one">
                 <Container>
-                    <Confetti numberOfPieces={100} />
+                    <Particles />
                     <Row>
                         <Col md={8}>
                             <div className="content">
-                                <div className="welcome">Bienvenue chez Open Source Days 10.0</div>
+                                <div className="welcome">Bienvenue chez Open Source Days 9.0</div>
                                 <div className="head-line">
                                     A decade of Open Source:
                                     <br />
@@ -57,15 +57,13 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="section" id="streamLinks">
-                {/* <StreamLinks /> */}
-                <Soon title="Liens des conférences et workshops" />
+                <StreamLinks />
             </div>
             <div className="section" id="about">
                 <AboutUS />
             </div>
             <div className="section" id="speakers">
                 <Speakers />
-                <Soon title="Nos invités" />
             </div>
             <div className="section" id="schedules">
                 <Schedules />
@@ -74,8 +72,7 @@ const LandingPage = () => {
                 <Tickets />
             </div>
             <div className="section" id="team">
-                {/* <Team /> */}
-                <Soon title="Notre équipe" />
+                <Team />
             </div>
             <div className="section" id="sponsors">
                 <Sponsors />
@@ -86,4 +83,4 @@ const LandingPage = () => {
     );
 };
 
-export default LandingPage;
+export default LandingPage19;
