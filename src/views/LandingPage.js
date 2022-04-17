@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../sass/LandingPage.scss";
-import Particles from "../components/Particles";
 import NavBar from "../components/layout/NavBar";
 import Footer from "../components/layout/Footer";
 import AboutUS from "./AboutUS";
