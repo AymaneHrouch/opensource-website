@@ -18,6 +18,11 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
 import Confetti from "react-confetti";
 
+// Todo:
+// change colors
+// add timetable
+// update speakers and sponsors
+
 const LandingPage = () => {
     const [isOpen, setOpen] = useState(false);
 
