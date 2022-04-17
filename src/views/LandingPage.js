@@ -64,7 +64,7 @@ const LandingPage = () => {
                 <AboutUS />
             </div>
             <div className="section" id="speakers">
-                <Speakers />
+                 {/* <Speakers />  */}
                 <Soon title="Nos invités" />
             </div>
             <div className="section" id="schedules">
