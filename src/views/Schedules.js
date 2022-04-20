@@ -20,206 +20,237 @@ const transitionStyles = {
 const schedule = [
   {
     date: {
-      day: "30",
-      month: "Mars",
+      day: "16",
+      month: "MaI",
     },
     events: [
       {
-        start: "08:00",
-        end: "09:30",
-        title: "Acceuil des participants",
+        start: "08:30",
+        end: "09:00",
+        title: "Acceuil des invités",
       },
+      
       {
-        start: "09:30",
-        end: "10:00",
+        start: "09:00",
+        end: "09:45",
         title: "Mots d’ouverture",
         speakers: [
           {
+            name: "Ministre.",
+            post: "",
+          },
+          {
+            name: "Monsieur le gouverneur de la province Khouribga.",
+            post: "",
+          },
+          {
             name: "M.Hmina Nabil",
-            post: "Président de l’Université Sultan Moulay Slimane.",
+            post: "Président de l’université Moulay Slimane.",
           },
           {
-            name: "Pr. Mohammed Sajieddine",
-            post: "Directeur de l’ENSA de Khouribga.",
+            name: "M.SAJIEDDINE Mohammed",
+            post: "Directeur de l’ENSA KHOURIBGA.",
           },
           {
-            name: "Pr. Abdelghani Ghazdali",
-            post: "Coordonnateur d’Open Source Days",
+            name: "M.HAFIDI Imad",
+            post: "Fondateur d’Open source Days.",
           },
           {
-            name: "Pr. Imad Hafidi",
-            post: "Fondateur d’Open Source Days.",
-          },
-          {
-            name: "M. Youssef Hablatou",
-            post: "Président du comité de pilotage de l’Open Source Days",
+            name: "Mme.Salma EL FADILI",
+            post: "Président de comité organisateur.",
           },
         ],
       },
       {
-        start: "10:00",
-        end: "11:00",
-        title: 'Conférence 1: "Une brève introduction à la Blockchain"',
+        start: "9:45",
+        end: "10:15",
+        title: "Keynote d’ouverture : Leader de Microsoft",
         speakers: [
           {
-            name: "Samir Bennani",
-            post: "MIT certified Blockchain expert",
+            name: "",
+            post: "",
           },
         ],
       },
       {
-        start: "11:00",
+        start: "10:15",
         end: "11:30",
-        title: "Pause-café",
+        title: "Conférence 1 : ",
+        speakers: [
+          {
+            name: "Mahdi Challigui:",
+            post: "le role des datacenter en tant qu’une infrastructure sinquanone à la digitalisation.",
+          },
+        ],
       },
       {
         start: "11:30",
-        end: "12:30",
+        end: "12:00",
         title:
-          'Conférence 2: "Algorithmes de recommandation,Explication et dérives"',
+          'Lancement hackaton: Par Hack and Pitch et la StartUp Factory',
         speakers: [
           {
-            name: "Othman Safsafi",
-            post: "PhD. Université de Sorbonne",
+            name: "",
+            post: "",
           },
         ],
       },
       {
         start: "12:30",
-        end: "14:30",
-        title: "Déjeuner",
-      },
-      {
-        start: "14:30",
-        end: "17:00",
-        title: "Workshops (Online)",
-        speakers: [
-          {
-            name: "LE DESIGN D'UN IOT",
-            post: "ZABARI SAAD",
-          },
-          {
-            name: "INTRO TO REACT NATIVE",
-            post: "YOUSSOUF EL AZIZI",
-          },
-          {
-            name: "CREATE YOUR FIRST SMART CONTRACT WITH SOLIDITY",
-            post: "SOUHAIL MSSASSI",
-          },
-          {
-            name: "GOOD DECISIONS MAKE GOOD DESIGN",
-            post: "ISMAIL EL AZIZI",
-          },
-        ],
-      },
-      {
-        start: "15:00",
-        end: "19:30",
-        title: "la Compétition OPENSOURCE 9.0",
-      },
-    ],
-  },
-  {
-    date: {
-      day: "31",
-      month: "Mars",
-    },
-    events: [
-      {
-        start: "08:00",
-        end: "09:00",
-        title: "Accueil des participants",
-      },
-      {
-        start: "09:00",
-        end: "10:30",
-        title:
-          'Conférence 1: "Software Craftsmanship ou comment exceller en carrière technique ?"',
-        speakers: [
-          {
-            name: "Sallah Kokaina",
-            post: "",
-          },
-        ],
-      },
-      {
-        start: "10:30",
-        end: "11:15",
-        title: "Pause-Café",
-      },
-      {
-        start: "11:15",
-        end: "12:15",
-        title:
-          'Keynote: "Comment activer correctement la mise à niveau vers le mode professionnel"',
-        speakers: [
-          {
-            name: "Diaa Alhak EL FALLOUS",
-            post: "",
-          },
-        ],
-      },
-      {
-        start: "12:15",
         end: "14:00",
-        title: "Déjeuner",
+        title: "Pause déjeuner",
       },
       {
         start: "14:00",
-        end: "16:30",
-        title: "Workshops (Online)",
+        end: "14:15",
+        title: "Visite des locaux de la compétition",
+        
+      },
+      {
+        start: "14:15",
+        end: "15:45",
+        title: "Lancement des atelier de formation :",
         speakers: [
           {
-            name: "LET'S CREATE AN AI IN THIS SESSION",
-            post: "ABDERRAHMAN JAIZE",
-          },
-          {
-            name: "LEARN TO IMPLEMENT AUTHENTICATION CHEAPLY AND SECURELY",
-            post: "SMAIL GHALLOU",
-          },
-          {
-            name: "7 HABITUDES D’INGÉNIEURS QUI RÉUSSISSENT",
-            post: "DJALAL E.B",
-          },
-          {
-            name: "MICRO-FRONTEND ARCHITECTURE",
-            post: "ABDERRAHIM SOUBAI-ELIDRISI",
-          },
-          {
-            name:
-              "DATABASES ARE THERE TO HELP YOU (POSTGRESQL, REDIS AS AN EXAMPLE)",
-            post: "JAAFARI EL HOUSSEINE",
+            name: "Nadiaa Naanaa:",
+            post: "Le Self service BI:enjeux et outils.",
           },
         ],
       },
       {
-        start: "16:30",
-        end: "17:30",
-        title: 'Table ronde "Covid et la Digitalisation"',
+        start: "15:45",
+        end: "16:00",
+        title: "Pause café",
+      },
+      {
+        start: "16:00",
+        end: "17:00",
+        title: "Suite des ateliers des formations :",
         speakers: [
           {
-            name: "Mustapha Swinga",
+            name: "Amina Moumni:",
+            post: "Projet professional.",
+          },
+        ],
+      },
+      {
+        start: "17:00",
+        end: "",
+        title: "Cloture des ateliers, et visite du lieu de hackaton",
+      },
+    ],
+    
+  },
+  
+  {
+    date: {
+      day: "17",
+      month: "Mai",
+    },
+    events: [
+      {
+        start: "08:30",
+        end: "09:00",
+        title: "Acceuil des invites",
+      },
+      {
+        start: "09:00",
+        end: "09:15",
+        title:
+          'Keynote d’ouverture par notre Sponsors Officiel',
+      },
+      {
+        start: "09:15",
+        end: "10:00",
+        title: "Conférence 1 :",
+        speakers: [
+          {
+            name: "Badr Boussabat:",
+            post: "Metavers et IA: un futur inclusif",
+          },
+        ],
+      },
+      {
+        start: "10:00",
+        end: "10:45",
+        title:
+          'Conférence 2',
+        speakers: [
+          {
+            name: "Amadou Diawara",
+            post: "l’intelligence collectif ",
+          },
+        ],
+      },
+      {
+        start: "10:45",
+        end: "11:15",
+        title: "Pause café",
+      },
+      {
+        start: "11:15",
+        end: "12:00",
+        title: "Conférence 3 :",
+        speakers: [
+          {
+            name: "Larbi Ouiyzme :",
+            post: "le cloud et le Big Data au service des objets connectés",
+          },
+        ],
+      },
+      {
+        start: "12:00",
+        end: "12:30",
+        title: 'Fin des conférences',
+        
+      },
+      {
+        start: "12:30",
+        end: "14:00",
+        title: "Pause déjeuner ",
+      },
+      {
+        start: "14:00",
+        end: "16:00",
+        title: "Table ronde :",
+        speakers: [
+          {
+            name: "Zouhri amine",
             post: "",
           },
           {
-            name: "Rachid El Idrissi",
+            name: "Prof Chawki",
             post: "",
           },
           {
-            name: "Ihssane Benalluch",
+            name: "Adil Taouil",
+            post: "",
+          },
+          {
+            name: "nahed Rachad",
             post: "",
           },
         ],
+      },
+      {
+        start: "16:00",
+        end: "16:15",
+        title: "Pause café",
+      },
+      {
+        start: "16:15",
+        end: "17:30",
+        title: "Session partage d’expérience avec les Chairs des 9 dernières Edition d’Open source Days",
       },
       {
         start: "17:30",
         end: "18:00",
-        title: "Sharing experience avec les lauréats d'ENSA Khouribga",
+        title: "Cloture de la compétition",
       },
       {
         start: "18:00",
-        end: "18:15",
-        title: "Cérémonie de clôture",
+        end: "",
+        title: "Cérémonie de Cloture (pause musicale) et remise des prix du hackaton Open Data",
       },
     ],
   },
