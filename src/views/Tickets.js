@@ -64,7 +64,7 @@ const Tickets = () => {
                                     <li>Hébergement avec petit dejeuner (une nuitée)</li>
                                     <li>Transport (Gare ↔ ENSA)</li>
                                     <li>Transport (ENSA ↔ Compétition)</li>
-                                    <li>Transport (ENSA ↔ Hotêl)</li>
+                                    <li>Transport (ENSA ↔ Hôtel)</li>
                                 </ul>
                             </div>
                         </Card>
