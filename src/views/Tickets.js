@@ -61,6 +61,7 @@ const Tickets = () => {
                                     <li>Participation à la compétition</li>
                                     <li>2 pauses café</li>
                                     <li>Déjeuner gratuit</li>
+                                    <li>Transport</li>
                                 </ul>
                             </div>
                         </Card>
