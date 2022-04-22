@@ -45,7 +45,7 @@ const speakers = [
         image: unknown,
         name: "Ilham Ikbal",
         introduction: `ingenieur cybersécurité senior chez IDEMIA`,
-    }
+    },
 ];
 
 const useStyles = makeStyles(theme => ({
@@ -67,7 +67,7 @@ const useStyles = makeStyles(theme => ({
 
     speakername: {
         paddingTop: "1.5rem",
-        color: "#A2142F",
+        color: "#B964A6",
 
         [theme.breakpoints.down("xs")]: {
             fontSize: "1.8rem",
@@ -79,7 +79,7 @@ const Speakers = () => {
     const classes = useStyles();
 
     return (
-        <Box className={classes.speakers} component="section" style={{padding: "2rem"}}>
+        <Box className={classes.speakers} component="section" style={{ padding: "2rem" }}>
             <div className="heading">
                 <span>Nos invités</span>
                 <hr />
