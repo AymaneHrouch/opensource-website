@@ -69,7 +69,6 @@ const LandingPage = () => {
             </div>
             <div className="section" id="speakers">
                  <Speakers /> 
-                <Soon title="Nos invités" />
             </div>
             <div className="section" id="schedules">
                 <Schedules />
@@ -78,11 +77,11 @@ const LandingPage = () => {
                 <Tickets />
             </div>
             <div className="section" id="team">
-                {/* <Team /> */}
-                <Soon title="Notre équipe" />
+                <Team />
             </div>
             <div className="section" id="sponsors">
-                <Sponsors />
+                {/* <Sponsors /> */}
+                <Soon title="Nos sponsors"/>
             </div>
             <Footer />
             <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="fjMFarSzysk" onClose={() => setOpen(false)} />

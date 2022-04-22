@@ -38,7 +38,7 @@ const Tickets = () => {
           <Grid item md={4} sm={12} container justify="center">
             <Card className={classes.root}>
               <div className="ticket-title">Pass Basique</div>
-              <div className="ticket-price">Gratuit</div>
+              <div className="ticket-price">150 MAD</div>
               <div className="ticket-benefits">
                 <ul>
                   <li>1 billet invité</li>
@@ -46,15 +46,16 @@ const Tickets = () => {
                     Accès essentiel (ateliers, keynotes et salon d'exposition)
                   </li>
                   <li>Participation à la compétition</li>
-                  <li>Pauses café</li>
+                  <li>2 pauses café</li>
+                  <li>Déjeuner gratuit</li>
                 </ul>
               </div>
             </Card>
           </Grid>
           <Grid item md={4} sm={12} container justify="space-around">
             <Card className={`${classes.root} animate`}>
-              <div className="ticket-title">Pass Standard</div>
-              <div className="ticket-price">50 MAD</div>
+              <div className="ticket-title">Pass VIP</div>
+              <div className="ticket-price">250 MAD</div>
               <div className="ticket-benefits">
                 <ul>
                   <li>1 billet invité</li>
@@ -62,26 +63,8 @@ const Tickets = () => {
                     Accès essentiel (ateliers, keynotes et salon d'exposition)
                   </li>
                   <li>Participation à la compétition</li>
-                  <li>Pauses café</li>
-                  <li>Déjeuner gratuit pendant 2 jours</li>
-                </ul>
-              </div>
-            </Card>
-          </Grid>
-          <Grid item md={4} sm={12} container justify="center">
-            <Card className={classes.root}>
-              <div className="ticket-title">Pass Premium</div>
-              <div className="ticket-price">220 MAD</div>
-              <div className="ticket-benefits">
-                <ul>
-                  <li>1 billet invité</li>
-                  <li>
-                    Accès essentiel (ateliers, keynotes et salon d'exposition)
-                  </li>
-                  <li>Participation à la compétition</li>
-                  <li>Pauses café</li>
-                  <li>Déjeuner gratuit pendant 2 jours</li>
-                  <li>Une nuit d'hôtel</li>
+                  <li>2 pauses café</li>
+                  <li>Déjeuner gratuit</li>
                 </ul>
               </div>
             </Card>

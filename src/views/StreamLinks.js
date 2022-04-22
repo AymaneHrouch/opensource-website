@@ -44,7 +44,7 @@ const StreamLinks = () => {
                 </Row>
                 <Row style={{ justifyContent: "center" }}>
                     <div className="sub-heading">
-                        <span style={{ color: "white" }}>Atelier</span>
+                        <span style={{ color: "white" }}>Workshops du jour 1</span>
                         <hr style={{ background: "white" }} />
                     </div>
                     <Container>

@@ -2,21 +2,17 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import hafidi from "../assets/Team/hafidi.jfif";
 import ghazdali from "../assets/Team/ghazdali.jfif";
-import hablatou from "../assets/Team/hablatou.png";
-import belaassri from "../assets/Team/belaassri.jpg";
-import hantari from "../assets/Team/hamza.jpeg";
-import laafia from "../assets/Team/laafia.jpeg";
-import laabsi from "../assets/Team/laabssi.jpg";
-import brahmi from "../assets/Team/brahmi.jpg";
-import salek from "../assets/Team/salek.jpg";
-import mahdar from "../assets/Team/mahdar.jpeg";
-import arouini from "../assets/Team/arouini.JPG";
-import moktafi from "../assets/Team/moktafi.PNG";
-import tarhate from "../assets/Team/tarhate.jpeg";
-import knouzi from "../assets/Team/knouzi.JPG";
-import zkim from "../assets/Team/zkim.jpg";
+import fadili from "../assets/Team/Comité OS pics/Fadili Salma.jpg";
+import lhafidi from "../assets/Team/Comité OS pics/HAFIDI LOUBNA.jpg";
+import ihimmich from "../assets/Team/Comité OS pics/HIMMICH IKRAM.jpg";
+import malainine from "../assets/Team/Comité OS pics/malainine.jpg";
+import mjahed from "../assets/Team/Comité OS pics/Mohammed_MJAHED.jpg";
+import ettahiri from "../assets/Team/Comité OS pics/Azizaettahiri.jpg";
+import ahrouch from "../assets/Team/Comité OS pics/hrouchaymane.jpg";
+import mhabibi from "../assets/Team/Comité OS pics/mhabibi.png";
+import amatouk from "../assets/Team/Comité OS pics/AFAF_MATOUK.jpg";
 import slaanani from "../assets/Team/slaanani.jpg";
-import ayman from "../assets/Team/ayman.jfif";
+import unknown from "../assets/Team/Comité OS pics/unknown.jpg"
 import { Linkedin, Mail } from "react-feather";
 
 const honorComittee = [
@@ -59,124 +55,100 @@ const teamVIP = [
 
 const team = [
   {
-    fullname: "Youssef Hablatou",
-    picture: hablatou,
+    fullname: "EL FADILI Salma",
+    picture: fadili,
     work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Président de l'événement",
-    email: "yhablatou@gmail.com",
-    linkedin: "https://www.linkedin.com/in/youssef-hablatou-4248381a9/",
+    post: "Présidente de l'événement",
   },
   {
-    fullname: "Hamza El Hantari",
-    picture: hantari,
+    fullname: "HAFIDI Loubna",
+    picture: lhafidi,
     work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Vice président de l'événement",
-    email: "hamza.hantari2010@gmail.com",
-    linkedin: "https://www.linkedin.com/in/hamza-el-hantari-7b5a33204",
+    post: "Responsable conférences et ateliers",
   },
   {
-    fullname: "Siham Belaâssri",
-    picture: belaassri,
-    work: "Étudiante en 1ère année Génie Informatique.",
+    fullname: "MATOUK Afaf",
+    picture: amatouk,
+    work: "Étudiante en 1ère année Informatique et Ingénierie des Données.",
+    post: "Responsable Sponsoring et partenariat",
+  },
+  {
+    fullname: "GUERRAB Mouna",
+    picture: unknown,
+    work: "Étudiante en 1ère année Informatique et Ingénierie des Données.",
+    post: "Responsable divertissement",
+  },
+  {
+    fullname: "Ikram himmich",
+    picture: ihimmich,
+    work: "Étudiant en 2ème année Génie Informatique.",
     post: "Responsable des relations publiques",
-    email: "siham.belaassri11@gmail.com",
-    linkedin: "http://linkedin.com/in/siham-belaassri-b875b0193",
   },
   {
-    fullname: "Aicha Laafia",
-    picture: laafia,
-    work: "Étudiante en 1ère année Génie Informatique.",
-    post: "Responsable Administration",
-    email: "aichalaafia1@gmail.com",
-    linkedin: "https://www.linkedin.com/in/aicha-laafia-0266a6126/",
-  },
-  {
-    fullname: "Youssef Zkim",
-    picture: zkim,
+    fullname: "Ziad Ghouzlani",
+    picture: unknown,
     work: "Étudiant en 1ère année Génie Informatique.",
-    post: "Responsable Technique",
-    email: "youssef.zkim1998@gmail.com",
-    linkedin: "https://www.linkedin.com/in/youssef-zkim",
+    post: "Responsable technique",
   },
   {
-    fullname: "Souhaib Laanani",
+    fullname: "MJAHED Mohammed",
+    picture: mjahed,
+    work: "Étudiant en 1ére année Génie Informatique.",
+    post: "Responsable technique",
+  },
+  {
+    fullname: "MALAININE Mohammed",
+    picture: malainine,
+    work: "Étudiant en 1ère année Génie Informatique.",
+    post: "Responsable technique",
+  },
+  {
+    fullname: "HROUCH Aymane",
+    picture: ahrouch,
+    work: "Étudiant en 2éme année Informatique et Ingénierie des Données.",
+    post: "Responsable technique",
+  },
+  {
+    fullname: "LAANANI Souhaib",
     picture: slaanani,
-    work: "Étudiant en Tronc Commun.",
-    post: "Responsable Technique",
-    email: "souhaib.laanani@gmail.com",
-    linkedin: "https://www.linkedin.com/in/souhaib-laanani/",
+    work: "Étudiant en 2éme année Génie Informatique.",
+    post: "Responsable technique",
   },
   {
-    fullname: "Wissal Laabsi",
-    picture: laabsi,
-    work: "Étudiante en 1ère année Génie Informatique.",
-    post: "Responsable du rédaction",
-    email: "wissallabssi@gmail.com",
-    linkedin: "https://www.linkedin.com/in/wissal-laabssi-1821a6168",
-  },
-  {
-    fullname: "Ilyass Brahmi",
-    picture: brahmi,
+    fullname: "HABIBI Mohamed",
+    picture: mhabibi,
     work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Responsable Logistiques",
-    email: "ilyassbrahmi3@gmail.com",
-    linkedin: "https://www.linkedin.com/in/ilyass-brahmi-a4467b19b/",
+    post: "Responsable compétition",
   },
   {
-    fullname: "Omar Salek",
-    picture: salek,
-    work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Responsable du compétition",
-    email: "omarsalek98@gmail.com",
-    linkedin: "https://www.linkedin.com/in/omar-salek-404523162/",
+    fullname: "FERDOUS Mouhcine",
+    picture: unknown,
+    work: "Étudiant en 2ème année Informatique et Ingénierie des Donnée",
+    post: "Responsable logistique",
   },
   {
-    fullname: "Anas Mahdar",
-    picture: mahdar,
-    work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Responsable Sponsoring",
-    linkedin: "https://www.linkedin.com/in/anas-mahdar",
-    email: "anasmahdar60@gmail.com",
+    fullname: "JALAL Alaaedine",
+    picture: unknown,
+    work: "Étudiant en 2ème année Informatique et Ingénierie des Donnée",
+    post: "Responsable logistique",
   },
   {
-    fullname: "Youssef Arouini",
-    picture: arouini,
-    work: "Étudiant en 2ème année Informatique et Ingénierie des Données.",
-    post: "Responsable Sponsoring",
-    email: "arouiniyoussef@gmail.com",
-    linkedin: "https://www.linkedin.com/in/youssef-arouini-05161312b/",
-  },
-  {
-    fullname: "Mouad El Moktafi",
-    picture: moktafi,
+    fullname: "EL MOUKI Mohammed",
+    picture: unknown,
     work: "Étudiant en 2ème année Génie Informatique.",
-    post: "Responsable Logistiques",
-    email: "moaad.elmouktafi@icloud.com",
-    linkedin: "https://www.linkedin.com/in/moaad-elmouktafi-33094b137",
+    post: "Responsable sponsoring",
   },
   {
-    fullname: "Oumaima Tarhate",
-    picture: tarhate,
-    work: "Étudiante en 2ème année Informatique et Ingénierie des Données.",
-    post: "Responsable du compétition",
-    email: "tarhateomaima@gmail.com",
-    linkedin: "https://linkedin.com/in/tarhate-omaima-0631001ab",
+    fullname: "TANTAOUI Khaoula",
+    picture: unknown,
+    work: "Étudiante en 2ème année Génie Informatique.",
+    post: "Responsable sponsoring",
   },
   {
-    fullname: "Maryam Knouzi",
-    picture: knouzi,
-    work: "Étudiante en 2ème année Master Big Data et Aide à la Décision.",
-    post: "Responsable du divertissement",
-    email: "maryamknouzi@gmail.com",
-    linkedin: "https://www.linkedin.com/in/maryam-knouzi-10b954164",
-  },
-  {
-    fullname: "Aymane Lemlih",
-    picture: ayman,
-    work: "Étudiant en 2ème année Génie Informatique.",
-    post: "Responsable Technique",
-    email: "aymanelemlih@gmail.com",
-    linkedin: "https://www.linkedin.com/in/aymane-lemlih-a71261163/"
+    fullname: "ETTAHIRI Aziza",
+    picture: ettahiri,
+    work: "Étudiant en 1ère année Génie Informatique.",
+    post: "Responsable exposition",
   }
 ];
 
