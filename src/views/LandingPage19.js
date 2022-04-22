@@ -9,7 +9,7 @@ import Tickets from "./Tickets";
 import Schedules from "./Schedules";
 import Speakers from "./Speakers";
 import Sponsors from "./Sponsors";
-import StreamLinks from "./StreamLinks";
+import StreamLinks9 from "./StreamLinks9";
 import Soon from "./Soon";
 import Counter from "../components/Counter";
 import { ChevronsDown, Youtube } from "react-feather";
@@ -57,7 +57,7 @@ const LandingPage19 = () => {
                 </div>
             </div>
             <div className="section" id="streamLinks">
-                <StreamLinks />
+                <StreamLinks9 />
             </div>
             <div className="section" id="about">
                 <AboutUS />

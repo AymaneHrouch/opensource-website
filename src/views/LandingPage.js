@@ -61,8 +61,8 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className="section" id="streamLinks">
-                {/* <StreamLinks /> */}
-                <Soon title="Liens des conférences et workshops" />
+                <StreamLinks />
+                {/* <Soon title="Liens des conférences et workshops" /> */}
             </div>
             <div className="section" id="about">
                 <AboutUS />
