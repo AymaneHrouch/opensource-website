@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 300,
     height: 550,
     background: "white",
-    color: "#d63031",
+    color: "#A2142F",
     padding: "10px",
     display: "flex",
     flexDirection: "column",

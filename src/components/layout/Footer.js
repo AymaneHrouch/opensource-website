@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#1f2426",
   },
   email: {
-    color: "#d63031",
+    color: "#A2142F",
   },
 }));
 

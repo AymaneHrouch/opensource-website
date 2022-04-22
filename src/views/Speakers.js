@@ -67,7 +67,7 @@ const useStyles = makeStyles(theme => ({
 
     speakername: {
         paddingTop: "1.5rem",
-        color: "tomato",
+        color: "#A2142F",
 
         [theme.breakpoints.down("xs")]: {
             fontSize: "1.8rem",

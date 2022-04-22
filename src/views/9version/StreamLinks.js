@@ -216,7 +216,7 @@ const StreamLinks = () => {
                               stroke="white"
                               strokeWidth={20}
                               height={40}
-                              fill="#d63031"
+                              fill="#A2142F"
                             />
                           </div>{" "}
                           Allez sur Facebook <ExternalLink color="white" />
@@ -250,7 +250,7 @@ const StreamLinks = () => {
                               stroke="white"
                               strokeWidth={20}
                               height={40}
-                              fill="#d63031"
+                              fill="#A2142F"
                             />
                           </div>{" "}
                           Allez sur Facebook <ExternalLink color="white" />
@@ -284,7 +284,7 @@ const StreamLinks = () => {
                               stroke="white"
                               strokeWidth={20}
                               height={40}
-                              fill="#d63031"
+                              fill="#A2142F"
                             />
                           </div>{" "}
                           Allez sur Facebook <ExternalLink color="white" />
@@ -318,7 +318,7 @@ const StreamLinks = () => {
                               stroke="white"
                               strokeWidth={20}
                               height={40}
-                              fill="#d63031"
+                              fill="#A2142F"
                             />
                           </div>{" "}
                           Allez sur Facebook <ExternalLink color="white" />
@@ -352,7 +352,7 @@ const StreamLinks = () => {
                               stroke="white"
                               strokeWidth={20}
                               height={40}
-                              fill="#d63031"
+                              fill="#A2142F"
                             />
                           </div>{" "}
                           Allez sur Facebook <ExternalLink color="white" />
