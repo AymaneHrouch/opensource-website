@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
 
     root: {
         maxWidth: 300,
-        height: 550,
+        height: 600,
         background: "white",
         color: "#B964A6",
         padding: "10px",
@@ -61,7 +61,10 @@ const Tickets = () => {
                                     <li>Participation à la compétition</li>
                                     <li>2 pauses café</li>
                                     <li>Déjeuner gratuit</li>
-                                    <li>Transport</li>
+                                    <li>Hébergement avec petit dejeuner (une nuitée)</li>
+                                    <li>Transport (Gare ↔ ENSA)</li>
+                                    <li>Transport (ENSA ↔ Compétition)</li>
+                                    <li>Transport (ENSA ↔ Hotêl)</li>
                                 </ul>
                             </div>
                         </Card>
