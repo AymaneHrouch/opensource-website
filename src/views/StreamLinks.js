@@ -51,10 +51,11 @@ const StreamLinks = () => {
                         <Row style={{ justifyContent: "center" }} noGutters>
                             <Col md={12}>
                                 <div className="row-col-conference">
-                                    <div className="conference-entry passed">
+                                    <div className="conference-entry"> 
+                                    {/* add class "passed" */}
                                         "La self-service BI : enjeux et outils" par <span>Nadia NAANAA</span> à <span>14:00</span>
                                     </div>
-                                    <div className="conference-entry passed">
+                                    <div className="conference-entry">
                                         "Projet professionnel" par <span>Amina Moumni</span> à <span>14:00</span>
                                     </div>
                                 </div>
