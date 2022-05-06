@@ -17,6 +17,7 @@ import ajalal from "../assets/Team/comite_os_10/ajalal.jpg";
 import melmouki from "../assets/Team/comite_os_10/melmouki.png";
 import zghouzlani from "../assets/Team/comite_os_10/zghouzlani.png";
 import ktantaoui from "../assets/Team/comite_os_10/ktantaoui.png";
+import mguerrab from "../assets/Team/comite_os_10/mguerrab.png";
 import unknown from "../assets/Team/comite_os_10/unknown.jpg";
 import { Linkedin, Mail } from "react-feather";
 
@@ -75,7 +76,7 @@ const team = [
     },
     {
         fullname: "GUERRAB Mouna",
-        picture: unknown,
+        picture: mguerrab,
         work: "Étudiante en 1ère année Informatique et Ingénierie des Données.",
         post: "Responsable divertissement",
     },
