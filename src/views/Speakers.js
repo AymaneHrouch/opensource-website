@@ -7,7 +7,7 @@ import image3 from "../assets/Speakers/Larbi OUIYZME.png";
 import image4 from "../assets/Speakers/Badr Boussabat.png";
 import image5 from "../assets/Speakers/Mehdi CHALLIGUI.png";
 import image6 from "../assets/Speakers/Amadou Diawara.png";
-import unknown from "../assets/Team/Comité OS pics/unknown.jpg";
+import unknown from "../assets/Team/comite_os_10/unknown.jpg";
 
 const speakers = [
     {
