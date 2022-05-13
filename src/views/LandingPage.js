@@ -68,7 +68,7 @@ const LandingPage = () => {
                 <AboutUS />
             </div>
             <div className="section" id="speakers">
-                 <Speakers /> 
+                <Speakers />
             </div>
             <div className="section" id="schedules">
                 <Schedules />
@@ -81,10 +81,10 @@ const LandingPage = () => {
             </div>
             <div className="section" id="sponsors">
                 {/* <Sponsors /> */}
-                <Soon title="Nos sponsors"/>
+                <Soon title="Nos sponsors" />
             </div>
             <Footer />
-            <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="fjMFarSzysk" onClose={() => setOpen(false)} />
+            <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="gWtnKD25UkA" onClose={() => setOpen(false)} />
         </div>
     );
 };
