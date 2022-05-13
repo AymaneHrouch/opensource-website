@@ -25,10 +25,10 @@ const StreamLinks = () => {
                         <Row style={{ justifyContent: "center" }} noGutters>
                             <Col md={12}>
                                 <div className="row-col-conference">
-                                    <div className="conference-entry passed">
+                                    <div className="conference-entry">
                                         "Le cloud et le Big Data au service des objets connectés" par <span>Larbi OUIYZME</span> à <span>14:00</span>
                                     </div>
-                                    <div className="conference-entry passed">
+                                    <div className="conference-entry">
                                         "Métavers et IA: un futur inclusif" par <span>Badr Boussabat</span> à <span>14:00</span>
                                     </div>
                                     <div className="conference-entry">
