@@ -60,8 +60,8 @@ const LandingPage = () => {
                     </Link>
                 </div>
             </div>
-            <div className="section" id="streamLinks">
-                <StreamLinks />
+            <div >
+                {/* <StreamLinks /> */}
                 {/* <Soon title="Liens des conférences et workshops" /> */}
             </div>
             <div className="section" id="about">
@@ -73,9 +73,9 @@ const LandingPage = () => {
             <div className="section" id="schedules">
                 <Schedules />
             </div>
-            <div className="section" id="tickets">
+            {/* <div className="section" id="tickets">
                 <Tickets />
-            </div>
+            </div> */}
             <div className="section" id="team">
                 <Team />
             </div>

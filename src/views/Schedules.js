@@ -33,14 +33,10 @@ const schedule = [
       {
         start: "09:00",
         end: "09:45",
-        title: "Mots d’ouverture",
+        title: "Mots d’ouverture:",
         speakers: [
           {
-            name: "Ministre.",
-            post: "",
-          },
-          {
-            name: "Monsieur le gouverneur de la province Khouribga.",
+            name: "Président de l’université Sultan Moulay Slimane M.HMINA Nabil",
             post: "",
           },
           {
@@ -59,82 +55,102 @@ const schedule = [
             name: "Mme.Salma EL FADILI",
             post: "Président de comité organisateur.",
           },
-        ],
-      },
-      {
-        start: "9:45",
-        end: "10:15",
-        title: "Keynote d’ouverture : Leader de Microsoft",
-        speakers: [
           {
-            name: "",
+            name: "Lancement du Hackthon OpenHack ",
             post: "",
           },
         ],
       },
       {
-        start: "10:15",
-        end: "11:30",
-        title: "Conférence 1 : ",
+        start: "9:45",
+        end: "10:30",
+        title: "Keynote d’ouverture:",
         speakers: [
           {
-            name: "Mahdi Challigui:",
-            post: "le role des datacenter en tant qu’une infrastructure sinquanone à la digitalisation.",
+            name: "Ayoub KEBAILI",
+            post: "Data & AI Lead Microsoft",
+          },
+        ],
+      },
+      {
+        start: "10:30",
+        end: "11:30",
+        title: "Conférence 1:",
+        speakers: [
+          {
+            name: "Larbi OUIZYME",
+            post: "le cloud et le Big Data au service des objets connectés",
           },
         ],
       },
       {
         start: "11:30",
-        end: "12:00",
+        end: "11:45",
         title:
-          'Lancement hackaton: Par Hack and Pitch et la StartUp Factory',
+          'Pause café',
+      },
+      {
+        start: "11:45",
+        end: "12:45",
+        title: "Conférence 2:",
         speakers: [
           {
-            name: "",
-            post: "",
+            name: "Soulaimane AMRI",
+            post: "L'ingénieur à l'ère de la transformation digitale",
           },
         ],
       },
       {
-        start: "12:30",
+        start: "12:45",
         end: "14:00",
         title: "Pause déjeuner",
       },
       {
         start: "14:00",
-        end: "14:15",
-        title: "Visite des locaux de la compétition",
-        
-      },
-      {
-        start: "14:15",
-        end: "15:45",
-        title: "Lancement des atelier de formation :",
+        end: "15:00",
+        title: "Conférence 3:",
         speakers: [
           {
-            name: "Nadiaa Naanaa:",
+            name: "Badr BOUSSABAT",
+            post: "Metaverse et IA: un futur Inclusive",
+          },
+        ],
+      },
+      {
+        start: "15:00",
+        end: "16:00",
+        title: "Lancement des ateliers de formation:",
+        speakers: [
+          {
+            name: "Nadiaa Naanaa",
             post: "Le Self service BI:enjeux et outils.",
           },
         ],
       },
       {
-        start: "15:45",
-        end: "16:00",
-        title: "Pause café",
-      },
-      {
-        start: "16:00",
-        end: "17:00",
-        title: "Suite des ateliers des formations :",
+        start: "",
+        end: "En parallèle",
+        title: "Atelier de Ilham IKBAL:",
         speakers: [
           {
-            name: "Amina Moumni:",
-            post: "Projet professional.",
+            name: "autour des métiers de la cybersécurité.",
+            post: "",
           },
         ],
       },
       {
-        start: "17:00",
+        start: "16:00",
+        end: "18:00",
+        title: "Suite des ateliers des formations:",
+        speakers: [
+          {
+            name: "Amina MOUMNI",
+            post: "Projet",
+          },
+        ],
+      },
+      {
+        start: "18:00",
         end: "",
         title: "Cloture des ateliers, et visite du lieu de hackaton",
       },
@@ -155,103 +171,114 @@ const schedule = [
       },
       {
         start: "09:00",
-        end: "09:15",
-        title:
-          'Keynote d’ouverture par notre Sponsors Officiel',
-      },
-      {
-        start: "09:15",
         end: "10:00",
-        title: "Conférence 1 :",
+        title:
+          'Conférence 1:',
         speakers: [
           {
-            name: "Badr Boussabat:",
-            post: "Metavers et IA: un futur inclusif",
+            name: "Mahdi CHALLIGUI:",
+            post: "le role des datacenter en tant qu’Infrastructure sinequanone a la digitalisation.",
           },
         ],
       },
       {
         start: "10:00",
-        end: "10:45",
-        title:
-          'Conférence 2',
-        speakers: [
-          {
-            name: "Amadou Diawara",
-            post: "l’intelligence collectif ",
-          },
-        ],
-      },
-      {
-        start: "10:45",
-        end: "11:15",
+        end: "10:15",
         title: "Pause café",
       },
       {
-        start: "11:15",
-        end: "12:00",
-        title: "Conférence 3 :",
+        start: "10:15",
+        end: "11:15",
+        title:
+          'Conférence 2:',
         speakers: [
           {
-            name: "Larbi Ouiyzme :",
-            post: "le cloud et le Big Data au service des objets connectés",
+            name: "Homame SOUSSI",
+            post: ": la transformation digitale basées sur les données.",
           },
         ],
       },
       {
-        start: "12:00",
-        end: "12:30",
-        title: 'Fin des conférences',
-        
-      },
-      {
-        start: "12:30",
+        start: "12:15",
         end: "14:00",
-        title: "Pause déjeuner ",
+        title: "Conférence 3:",
+        speakers: [
+          {
+            name: "Amadou DIWARA",
+            post: "l’intelligence collectif.",
+          },
+        ],
       },
       {
         start: "14:00",
-        end: "16:00",
-        title: "Table ronde :",
+        end: "15:00",
+        title: "Lancement des ateliers de formation:",
         speakers: [
           {
-            name: "Zouhri amine",
+            name: "Wajih OUTAL",
+            post: "Azure Data et Power BI.",
+          },
+        ],
+      },
+      {
+        start: "15:00",
+        end: "16:00",
+        title: 'Table ronde:',
+        speakers: [
+          {
+            name: "Salah eddine MIMOUNIL",
             post: "",
           },
           {
-            name: "Prof Chawki",
+            name: "Aziz NAWFAL (Almou9awil)",
             post: "",
           },
           {
-            name: "Adil Taouil",
+            name: "Hanane BENHADDI",
             post: "",
           },
           {
-            name: "nahed Rachad",
+            name: "Yassine EL HADDADI",
             post: "",
           },
         ],
+        
       },
       {
         start: "16:00",
         end: "16:15",
-        title: "Pause café",
+        title: "Pause café ",
       },
       {
         start: "16:15",
         end: "17:30",
-        title: "Session partage d’expérience avec les Chairs des 9 dernières Edition d’Open source Days",
+        title: "Les pitchs",
       },
       {
         start: "17:30",
-        end: "18:00",
+        end: "18:30",
         title: "Cloture de la compétition",
       },
       {
-        start: "18:00",
+        start: "18:30",
         end: "",
-        title: "Cérémonie de Cloture (pause musicale) et remise des prix du hackaton Open Data",
+        title: "Cérémonie de Clôture (pause musicale)/sketch et remise des prix du hackaton OpenHack",
       },
+      // {
+      //   start: "16:15",
+      //   end: "17:30",
+      //   title: "Session partage d’expérience avec les Chairs des 9 dernières Edition d’Open source Days",
+      // },
+      // {
+      //   start: "17:30",
+      //   end: "18:00",
+      //   title: "Cloture de la compétition",
+      // },
+      // {
+      //   start: "18:00",
+      //   end: "",
+      //   title: "Cérémonie de Cloture (pause musicale) et remise des prix du hackaton Open Data",
+      // },
     ],
   },
 ];

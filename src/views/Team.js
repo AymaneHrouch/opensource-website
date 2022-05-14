@@ -81,13 +81,13 @@ const team = [
         post: "Responsable divertissement",
     },
     {
-        fullname: "Ikram himmich",
+        fullname: "HIMMICH Ikram",
         picture: ihimmich,
         work: "Étudiant en 2ème année Génie Informatique.",
         post: "Responsable des relations publiques",
     },
     {
-        fullname: "Ziad Ghouzlani",
+        fullname: "GHOUZLANI Ziad",
         picture: zghouzlani,
         work: "Étudiant en 1ère année Génie Informatique.",
         post: "Responsable technique",

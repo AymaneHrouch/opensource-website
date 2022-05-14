@@ -3,17 +3,17 @@ import { Col, Container, Row } from "reactstrap";
 import usms from "../assets/Sponsors/usms.png";
 import khouribgapress from "../assets/Sponsors/khouribga-presse.png";
 import banquepop from "../assets/Sponsors/banque-pop.png";
-import sotreg from "../assets/Sponsors/sotreg.png";
+import sotreg from "../assets/Sponsors/storeg.PNG";
 import UPTv from "../assets/Sponsors/UPtv.png";
 import pulse from "../assets/Sponsors/pulse.png";
-import ahdat from "../assets/Sponsors/ahdat.png";
+// import ahdat from "../assets/Sponsors/ahdat.png";
 import joe from "../assets/Sponsors/joe.png";
 import GABC from "../assets/Sponsors/GABC.png";
 import pepsi from "../assets/Sponsors/pepsi.png";
 import LayerCraft from "../assets/Sponsors/LayerCraft.png";
 import ensa from "../assets/Sponsors/ensa.png";
 import nrj from "../assets/Sponsors/nrj.png";
-// import alaoula from "../assets/Sponsors/alaoula.png";
+import indexgroup from "../assets/Sponsors/indexgroup.png";
 // import hespress from "../assets/Sponsors/hespress.png";
 // import radioplus from "../assets/Sponsors/radioplus.png";
 // import twoMRadio from "../assets/Sponsors/2mradio.jfif";
@@ -31,6 +31,7 @@ const sponsors = [
   // marocnumericcluster,
   banquepop,
   pepsi,
+  indexgroup,
   sotreg,
   UPTv,
   pulse,
@@ -49,7 +50,7 @@ const media = [
   // radiomars,
   hitRadio,
   khouribgapress,
-  ahdat,
+  // ahdat,
   nrj
 ];
 
