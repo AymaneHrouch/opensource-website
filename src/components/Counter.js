@@ -18,7 +18,7 @@ const Counter = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       // const eventDate = new Date("03-30-2021");
-      const eventDate = 1652513400000;
+      const eventDate = 1652686200000;
       const ctdwn = countdown(
         null,
         eventDate,
