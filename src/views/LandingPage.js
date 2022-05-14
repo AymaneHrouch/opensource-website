@@ -80,8 +80,8 @@ const LandingPage = () => {
                 <Team />
             </div>
             <div className="section" id="sponsors">
-                {/* <Sponsors /> */}
-                <Soon title="Nos sponsors" />
+                <Sponsors />
+                {/* <Soon title="Nos sponsors" /> */}
             </div>
             <Footer />
             <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="gWtnKD25UkA" onClose={() => setOpen(false)} />
