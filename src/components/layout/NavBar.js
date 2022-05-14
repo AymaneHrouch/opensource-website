@@ -78,11 +78,11 @@ const Example = props => {
                                 Programme
                             </Link>
                         </NavItem>
-                        <NavItem className="nav-item">
+                        {/* <NavItem className="nav-item">
                             <Link containerId="root" to="tickets" spy={true} smooth={true} duration={500}>
                                 Billets
                             </Link>
-                        </NavItem>
+                        </NavItem> */}
                         {/* <NavItem className="nav-item">
               <Link
                 containerId='root'

@@ -18,7 +18,7 @@ const Counter = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       // const eventDate = new Date("03-30-2021");
-      const eventDate = 1652660548000;
+      const eventDate = 1652513400000;
       const ctdwn = countdown(
         null,
         eventDate,
@@ -67,7 +67,7 @@ const Counter = () => {
   ) : (
     <div className="links-available-container">
       <div className="links-available">
-        Les liens vers les conférences et les ateliers sont disponibles
+      L'horaire de l’événement est disponible
       </div>
       <Link to="streamLinks" smooth={true} duration={500} containerId="root">
         <div className="scroll-tosee">
